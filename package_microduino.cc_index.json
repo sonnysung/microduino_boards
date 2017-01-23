@@ -9,6 +9,28 @@
             "online":"https://www.microduino.cc"
          },
          "platforms":[
+			{
+               "name":"Microduino AVR Boards",
+               "architecture":"avr",
+               "version":"1.0.1",
+               "category":"Contributed",
+               "url":"https://github.com/sonnysung/microduino_boards/raw/master/microduinoavrboards.1.0.1.zip",
+               "archiveFileName":"microduinoavrboards.1.0.1.zip",
+               "checksum":"SHA-256:0b491b5e055d64a953a3af8454abe5f91efd2ad4651d7f2c0eeb01ac270841c8",
+               "size":"5567062",
+               "help":{
+                  "online":"https://www.microduino.cc"
+               },
+               "boards":[
+                  { "name":"Microduino/mCookie-Core (328p)" },
+                  { "name":"Microduino/mCookie-Core (168pa)" },
+                  { "name":"Microduino/mCookie-Core+ (644pa)" },
+                  { "name":"Microduino/mCookie-Core+ (1284pa)" },
+                  { "name":"Microduino/mCookie-Core USB (32u4)" },
+                  { "name":"Microduino/mCookie-Core RF (128rfa1)" }
+               ],
+               "toolsDependencies":[]
+            },
             {
                "name":"Microduino AVR Boards",
                "architecture":"avr",
